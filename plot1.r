@@ -1,6 +1,8 @@
-## Coursera - Exploratory Data Analysis - plot 1
+## Coursera - Exploratory Data Analysis - Plotting Assignment 1
+##
+## plot1.R - generates plot1.png
 
-#setwd("D:/Study Materials/CourseEra Videos/Explaratory Analysis/Home Work")
+setwd("D:/Study Materials/CourseEra Videos/Explaratory Analysis/Home Work")
 filename = "exdata_plotting1.zip"
 if (!file.exists(filename)) {
   loaddata = download.file("https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip",
